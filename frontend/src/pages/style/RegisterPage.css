@@ -1,0 +1,214 @@
+
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  /* left side container start  */
+  .RegisterPage-main-left {
+    height: 100%;
+    background-color: #387373;
+  }
+  .hazard-RegisterPage-header-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #eaf7f7; */
+    height: 20%;
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 2%;
+   margin-bottom: 5%;
+  }
+  .hazard-RegisterPage-header-title{
+    font-size: 7vh;
+    text-align: center;
+    font-weight: bolder;
+    color: #eaf7f7;
+  }
+  .hazard-RegisterPage-description-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #eaf7f7; */
+    height: 46%;
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+  }
+  .hazard-RegisterPage-header-description{
+    font-size: 3vh;
+    text-align: justify;
+    font-weight: bolder;
+    color: #eaf7f7;
+  }
+  .hazard-RegisterPage-line-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #eaf7f7;
+    height: 2%;
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+  }
+  
+  .hazard-RegisterPage-circle-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #eaf7f7; */
+    height: 15%;
+    width: 100%;
+    margin-left: 1%;
+    
+  }
+  .hazard-RegisterPage-circle1{
+    width: 10vmin;
+    height: 10vmin;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #eaf7f7;
+    border-radius: 50%;
+    margin-left: 5%;
+  }
+  .hazard-RegisterPage-circle{
+    width: 10vmin;
+    height: 10vmin;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #eaf7f7;
+    border-radius: 50%;
+    margin-left: 4%;
+  }
+  /* left side container end  */
+  .RegisterPage-main-right {
+    height: 100%;
+    background-color: #ffffff;
+  }
+  .hazard-RegisterPage-heading-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 15%;
+    width: 100%;
+    margin-top: 2%;
+   margin-bottom: 2%;
+  }
+  .hazard-RegisterPage-heading-title{
+    color: #387373;
+    font-size: 8vh;
+    font-weight: bolder;
+    text-align: justify;
+  }
+  .hazard-RegisterPage-heading-line-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #387373;
+    height: 3%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+   margin-bottom: 5%;
+  }
+
+
+  .hazard-RegisterPage-input-text-box::placeholder {
+    color: #387373;
+    /* Adds color to the placeholder text */
+    opacity: 50%;
+  }
+  
+  .hazard-RegisterPage-input-text-box {
+    height: auto; /* Adjusted for better alignment */
+    width: 100%;
+    font-size: 3vh;
+    border-radius: 2vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: .5vh solid #387373;
+    font-weight: bold;
+    color: #387373;
+    padding: 0.75rem;
+  }
+  .hazard-RegisterPage-input-text-box:hover {
+    
+    border: .5vh solid #387373;
+  
+  }
+  .form-floating > .hazard-RegisterPage-input-text-box {
+    padding: 1.5rem 0.75rem 0.375rem;
+    color: #387373;
+  }
+  
+  .form-floating > label {
+    color: #387373;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 0.75rem;
+    
+  }
+  
+  .hazard-RegisterPage-login-button-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #bdc2c2;
+    height: 10%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+   margin-bottom: 2%;
+   margin-top: 4%;
+   border-radius: 6vh;
+  }
+  .hazard-RegisterPage-login-button{
+  
+    background-color: #387373;
+    color: #e4f2e7;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 6vh;
+    border-radius: 6vh;
+    border-width: 0;
+    text-align: center;
+    
+  }
+  
+  .hazard-RegisterPage-login-button:hover{
+    background-color:  #0a3030;
+  }
+  .hazard-RegisterPage-signup-button{
+  
+    background-color: #387373;
+    color: #e4f2e7;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 6vh;
+    border-radius: 6vh;
+    border-width: 0;
+    text-align: center;
+    
+  }
+  
+  .hazard-RegisterPage-signup-button:hover{
+    background-color:  #0a3030;
+  }
+  .hazard-RegisterPage-register-button-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #bdc2c2;
+    height: 10%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 6vh;
+    margin-top: 4%;
+   margin-bottom: 2%;
+  }

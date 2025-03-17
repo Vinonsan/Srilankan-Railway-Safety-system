@@ -1,0 +1,32 @@
+.error-modal {
+    /* Custom styles for the entire modal */
+  }
+  
+  .modal-header {
+    background-color: #dfd4d4; /* Yellow background */
+    color: #1a0101; /* Dark text color */
+    font-size: 20px; /* Increase font size */
+  }
+  
+  .modal-title {
+    font-weight: bold; /* Bold title text */
+  }
+  
+  .modal-body {
+    font-size: 18px; /* Increase font size */
+    background-color: #ffffff; /* Yellow background */
+    color: #3b0303; /* Dark text color */
+    font-weight: bold
+  }
+  
+  .modal-footer {
+    background-color: #fff; /* White background */
+  }
+  
+  .modal-close-btn {
+    font-size: 16px; /* Increase font size for close button */
+    background-color:  rgb(107, 16, 4);
+    font-weight: 400;
+    
+  }
+  

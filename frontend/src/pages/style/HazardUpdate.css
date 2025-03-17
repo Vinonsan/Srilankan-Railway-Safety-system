@@ -1,0 +1,201 @@
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ..........left side design start.......... */
+
+.adminViewhazard-location-main-left {
+  background-color: #fff;
+  height: 100%;
+}
+
+.adminViewhazard-LP-hazard-location-header-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #387373;
+  height: 20%;
+  width: 100%;
+  border-bottom-right-radius: 200px;
+  margin-left: -5%;
+  
+}
+
+.adminViewhazard-LP-hazard-location-header-title {
+  font-size: 8vh;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 5%;
+  color: #e4f2e7;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+/* Style the custom dropdown toggle */
+.adminViewhazard-custom-dropdown-toggle {
+  display: flex;
+  align-items: center;
+}
+
+
+.adminViewhazard-LP-hazard-location-scrollable-dropdown-menu {
+  max-height: 200px; /* Adjust this value as needed */
+  overflow-y: auto;
+}
+
+.adminViewhazard-LP-hazard-location-button-box1 {
+  /* background-color: rgb(165, 168, 168); */
+  height: 10%;
+  width: 100%;
+  margin-bottom: 5%;
+  
+}
+#adminViewhazard-update-hazard-input{
+  border: .5vh solid #387373;
+  font-size: 1.2rem;
+  color: #387373;
+  font-weight: bolder;
+}
+
+#adminViewhazard-update-hazard-input-group-dropdown-2{
+  background-color: #387373;
+  color: #e4f2e7;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.adminViewhazard-LP-hazard-location-search-button {
+
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 40%;
+  height: 100%;
+  font-weight: bolder;
+  font-size: 5vh;
+  border-radius: 2vh;
+  border: #387373;
+}
+
+.adminViewhazard-LP-hazard-location-search-button:hover {
+  background-color: #0a3030;
+  
+}
+
+.adminViewhazard-LP-hazard-location-button-box2 {
+  /* background-color: rgb(165, 168, 168); */
+  height: 10%;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.adminViewhazard-LP-hazard-location-back-button {
+
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 40%;
+  height: 100%;
+  font-weight: bolder;
+  font-size: 5vh;
+  border-radius: 2vh;
+  border: #387373;
+}
+
+.adminViewhazard-LP-hazard-location-back-button:hover {
+  background-color: #0a3030;
+  
+}
+
+
+/* ..........right side design start.......... */
+.adminViewhazard-location-main-right {
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminViewhazard-location-location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4f2e7;
+  height: 15%;
+  width: 100%;
+  margin-bottom: 6%;
+  margin-top: 2%;
+  border-radius: 4vh;
+
+}
+
+.adminViewhazard-location-heading {
+  color: #387373;
+  font-size: 8vh;
+  font-weight: bold;
+}
+
+.adminViewhazard-location-possible-main-box {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  /* background-color: #668585; */
+  height: 70%;
+  width: 90%;
+  margin-bottom: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.adminViewhazard-location-possible-header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #e4f2e7; */
+  height: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+ 
+}
+
+.adminViewhazard-location-possible-hazard-box{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 80%;
+  /* background-color: aqua; */
+}
+
+.adminViewhazard-location-possible-hazard-box2{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  margin-top: 2%;
+  background-color: #5A0811;
+  border-radius: 4vh;
+}
+
+.adminViewhazard-location-possible-header-heading {
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bold;
+  
+}
+
+
+.adminViewhazard-location-possible-content-heading {
+  color: #e4f2e7;
+  font-weight: bold;
+  font-size: 5vh;
+}
+

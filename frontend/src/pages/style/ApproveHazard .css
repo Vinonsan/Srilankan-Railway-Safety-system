@@ -1,0 +1,410 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ..........left side design start.......... */
+
+.ApproveHazard-main-left {
+  background-color: white;
+  height: 100%;
+}
+
+.ApproveHazard-header-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #387373;
+  height: 20%;
+  width: 100%;
+  border-bottom-right-radius: 200px;
+  margin-left: -5%;
+ 
+}
+.ApproveHazard-title {
+  font-size: 8vh;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 5%;
+  color: #e4f2e7;
+}
+
+.ApproveHazard-newhazard-heading-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 10%;
+  width: 96%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #e4f2e7;
+  border-radius: 8px;
+}
+
+.ApproveHazard-newhazard-heading-title-box{
+  /* background-color: #787a7c; */
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  margin-left: 1%;
+}
+
+.ApproveHazard-newhazard-heading-title-box h1{
+ color: #387373;
+ font-size: 4vh;
+ font-weight: bolder;
+}
+
+.ApproveHazard-newhazard-heading-notification-box{
+  /* background-color: #787a7c; */
+  height: 80%;
+  width: 10%;
+  margin-left: 17%;
+  margin-top: 1%;
+  
+}
+
+.ApproveHazard-newhazard-heading-notification-box h1{
+ color: #387373;
+  
+}
+
+.ApproveHazard-notification-button-box-icon{
+  background-color: #387373;
+  
+
+}
+
+.ApproveHazard-notification-button-box-icon:hover{
+  background-color: #0a4747;
+}
+
+.ApproveHazard-message-icon{
+  height: 4vh;
+  width: 4vh;
+}
+.ApproveHazard-newhazard-box {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76%;
+  width: 96%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 3%;
+  background-color: #387373;
+}
+
+.ApproveHazard-description-box p{
+  color: rgb(163, 1, 1);
+  font-weight: bolder;
+  text-align: justify;
+  font-size: 5vh;
+}
+
+.ApproveHazard-newhazard-content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 96%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 3%;
+    background-color: #e4f2e7;
+}
+
+.ApproveHazard-detail-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13%;
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #e4f2e7;
+    border: 0.5vh solid #387373;
+    border-radius: 8px;
+    
+}
+
+.ApproveHazard-detail-name-box{
+  /* background-color: #787a7c; */
+  width: 30%;
+  height: 100%;
+  margin-right: 2%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ApproveHazard-detail-name-box p{
+  color: #387373;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2vh;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+
+.ApproveHazard-detail-loco-phone-box {
+  /* background-color: #104e8b; */
+  width: 28%;
+  height: 100%;
+  margin-right: 2%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ApproveHazard-detail-loco-phone-box p {
+  color: #387373;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2vh;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.ApproveHazard-detail-station-phone-box {
+  /* background-color: #53db14; */
+  width: 40%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ApproveHazard-detail-station-phone-box p {
+  color: #387373;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2vh;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.ApproveHazard-description-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 98%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #e4f2e7;
+    border: 0.5vh solid #387373;
+    border-radius: 8px;
+   
+}
+
+.ApproveHazard-accept-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 98%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* background-color: rgb(179, 184, 184); */
+}
+
+.ApproveHazard-hazard-btn-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    margin-top: 1%;
+    
+    /* background-color: aliceblue; */
+}
+
+.ApproveHazard-hazard-left-icon-box{
+  display: flex;
+background-color: #387373;
+height: 100%;
+width: 15%;
+border-top-left-radius: 16px;
+border-bottom-left-radius: 16px;
+justify-content: center;
+align-items: center;
+color: #e4f2e7;
+font-size: 6vh;
+}
+
+.ApproveHazard-hazard-middle-input-box{
+  display: flex;
+/* background-color: #e4f2e7; */
+height: 100%;
+width: 70%;
+justify-content: center;
+align-items: center;
+
+
+border: 0.5vh solid #387373;
+}
+
+.ApproveHazard-hazard-middle-input-box p{
+  color: #387373;
+  font-size: 5vh;
+  font-weight: bolder;
+  margin-top: 4%;
+}
+
+.ApproveHazard-hazard-right-button-box{
+  display: flex;
+background-color: #387373;
+height: 100%;
+width: 20%;
+justify-content: center;
+align-items: center;
+color: #e4f2e7;
+font-size: 6vh;
+border-top-right-radius: 16px;
+border-bottom-right-radius:16px ;
+}
+
+.ApproveHazard-hazard-right-button{
+  display: flex;
+background-color: #387373;
+height: 100%;
+width: 100%;
+justify-content: center;
+align-items: center;
+color: #e4f2e7;
+font-weight: bolder;
+border-top-right-radius: 16px;
+border-bottom-right-radius:16px ;
+border:  solid #387373;
+border-left: 0px;
+}
+
+.ApproveHazard-hazard-right-button:hover{
+
+background-color: #0a4747;
+border:  solid #387373;
+
+}
+.ApproveHazard-location-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    /* background-color: aliceblue; */
+}
+/* Add custom styles for your modal components if needed */
+.modal-header .modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body button {
+  margin-bottom: 10px;
+}
+
+.modal-body p {
+  margin-bottom: 5px;
+}
+
+
+/* ..........right side design start.......... */
+.ah-main-right {
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.ah-right-header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #387373;
+  }
+  .ah-right-header-box h1{
+    color: #e4f2e7;
+    font-weight: bolder;
+  }
+
+#ah-input-group-dropdown-2{
+background-color: #e4f2e7;
+color: #387373;
+font-weight: bolder;
+font-size: 3vh;
+}
+
+  .ah-box {
+    
+    height: 8%;
+    width: 100%;
+   margin-bottom: 2%;
+   margin-top: 4%;
+  }
+  
+  .ah-button{
+    height: 100%;
+    width: 50%;
+    background-color: #e4f2e7;
+    color: #387373;
+    font-weight: bolder;
+    font-size: 4vh;
+  }
+
+  .ah-button:hover{
+    height: 100%;
+    width: 50%;
+    background-color: #fdfdfd;
+    color: #387373;
+    font-weight: bolder;
+    font-size: 4vh;
+  }
+  .ApproveHazard-hazard-right-hazard-icon{
+    font-size: 5vh;
+  }
+
+  .ApproveHazard-hazard-icon-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(228, 242, 231, 0.8);  */
+    width: 100%;
+    height: 80px;
+    /* border: 0.5px solid #0a4747;  */
+}
+  .ApproveHazard-hazard-icon-box2 h2{
+   color: #e4f2e7;
+   background-color: rgb(95, 25, 25);
+   height: 80%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   text-align: center;
+  }
+
+  .ApproveHazard-hazard-content{
+    background-color: rgba(228, 242, 231, 0.5); 
+    border: 2px solid #e4f2e7; 
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+  }

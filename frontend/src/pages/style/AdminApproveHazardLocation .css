@@ -1,0 +1,208 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* left side design start **********************************************************************  */
+
+.AdminApproveHazardLocation-main-left {
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.AdminApproveHazardLocation-heading-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #387373;
+  height: 20%;
+  width: 100%;
+  border-bottom-right-radius: 100px;
+  margin-left: -5%;
+  margin-bottom: 5%;
+}
+.AdminApproveHazardLocation-title {
+  font-size: 8vh;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 5%;
+  color: #e4f2e7;
+}
+
+.AdminApproveHazardLocation-radio-box {
+  
+  height: 40%;
+  width: 70%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.AdminApproveHazardLocation-button-box1 {
+  height: 10%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.AdminApproveHazardLocation-update-button {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 4vh;
+}
+
+.AdminApproveHazardLocation-update-button:hover {
+  background-color: #0a3030;
+}
+
+.AdminApproveHazardLocation-button-box2 {
+  height: 10%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.AdminApproveHazardLocation-cancel-button {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 4vh;
+}
+
+.AdminApproveHazardLocation-cancel-button:hover {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #0a3030;
+  color: #e4f2e7;
+  width: 100%;
+  font-weight: bolder;
+}
+
+/* right side design start ************************************************************** */
+.AdminApproveHazardLocation-main-right {
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.AdminApproveHazardLocation-right-heading-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 15%;
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+.AdminApproveHazardLocation-right-title {
+  font-size: 6vh;
+  font-weight: bolder;
+  color: #e4f2e7;
+}
+
+.AdminApproveHazardLocation-right-location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4f2e7;
+  height: 10%;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+.AdminApproveHazardLocation-right-location {
+  color: #387373;
+  font-weight: bolder;
+  font-size: 5vh;
+}
+.AdminApproveHazardLocation-right-new-hazard-heading-main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 20%;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+.AdminApproveHazardLocation-right-new-hazard-heading {
+  color: #e4f2e7;
+  font-weight: bolder;
+  font-size: 5vh;
+}
+.AdminApproveHazardLocation-right-new-hazard-heading-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 30%;
+  width: 80%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+
+.AdminApproveHazardLocation-right-new-hazard-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 16, 4);
+  height: 38%;
+  width: 80%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+
+.AdminApproveHazardLocation-right-hazard-heading-main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40%;
+  width: 90%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+}
+
+.AdminApproveHazardLocation-right-hazard-title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10%;
+  width: 70%;
+  margin-top: 2%;
+
+  margin-left: 15%;
+}
+.AdminApproveHazardLocation-right-new-hazard-heading {
+  font-size: 4vh;
+  color: #e4f2e7;
+  font-weight: bolder;
+}
+
+.AdminApproveHazardLocation-right-hazard-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a3030;
+  height: 16%;
+  width: 70%;
+  margin-left: 15%;
+}
+.AdminApproveHazardLocation-right-hazard {
+  font-size: 4vh;
+  color: #e4f2e7;
+  font-weight: bolder;
+}

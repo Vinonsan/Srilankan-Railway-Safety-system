@@ -1,0 +1,251 @@
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ..........left side design start.......... */
+
+.admin-hazard-location-main-left {
+  background-color: #fff;
+  height: 100%;
+}
+
+.admin-hazard-location-header-box {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #387373;
+  height: 20%;
+  width: 100%;
+  border-bottom-right-radius: 200px;
+  margin-left: -5%;
+  margin-bottom: 2%;
+}
+
+
+.admin-hazard-location-title {
+  font-size: 7vh;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 5%;
+  color: #e4f2e7;
+}
+
+
+
+.admin-hazard-location-left-radio-button-box {
+  height: 30%;
+  width: 60%;
+  justify-content: left;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  /* background-color: rgb(199, 207, 207); */
+  
+}
+/* radio button style */
+.admin-hazard-location-payment-methods {
+  display: flex;
+  flex-direction: column; /* Display items in a column */
+  gap: 2%; /* Adjust the gap between items */
+  width: 100%;
+ 
+
+}
+
+.admin-hazard-location-method {
+  display: flex;
+  align-items: center;
+  padding: 1% 2%;
+  border-radius: 2vh; /* Rounded buttons */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+  background-color: #387373;
+}
+
+.admin-hazard-location-method-text {
+  margin-left: 1%;
+  font-size: 4vh;
+  font-weight: bold;
+  color: #e4f2e7; /* White text color */
+}
+
+.admin-hazard-location-method.selected {
+  background-color: #022d2d; /* Dark blue background color */
+  border-color: #215b5b; /* Dark teal border color */
+  color: #e4f2e7; /* White text color */
+}
+
+.admin-hazard-location-method.selected input[type="radio"] {
+  border-color: #fff; /* Adjusted border color for selected radio button */
+}
+
+.admin-hazard-location-method:not(.selected) {
+  color: #022d2d; /* Default text color */
+}
+
+.admin-hazard-location-method:not(.selected) input[type="radio"]:checked {
+  background-color: #022d2d; /* Updated background color for checked radio button */
+  border-color: #215b5b; /* Updated border color for checked radio button */
+}
+
+.admin-hazard-location-radio-button {
+  height: 3vh;
+  width: 3vh;
+  margin-right: 2%; /* Add margin to separate radio button from text */
+  appearance: none;
+  border-radius: 50%;
+  border: 1vh solid #387373; /* Default border color */
+  background-color: #fff; /* Default background color */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.admin-hazard-location-radio-button:checked {
+  background-color: #022d2d; /* Updated background color for checked radio button */
+  border-color: #215b5b; /* Updated border color for checked radio button */
+}
+
+.admin-hazard-location-button{
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 50%;
+  height: 40%;
+  font-size: 4vh;
+  border: #387373;
+  margin-bottom: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-weight: bolder;
+}
+.admin-hazard-location-button-box{
+  display: flex;
+  /* background-color: #ebe7e7; */
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ..........right side design start.......... */
+.admin-hazard-location-main-right {
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-admin-hazard-location-header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(199, 207, 207); */
+  height: 10%;
+  width: 100%;
+  margin-right: 15%;
+  margin-top: 1%;
+  background-color: #387373;
+
+
+}
+
+.right-admin-hazard-location-header-heading {
+  font-size: 7vh;
+  font-weight: bolder;
+  color: #e4f2e7;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.right-admin-hazard-location-header-box-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(199, 207, 207); */
+  height: 2%;
+  width: 100%;
+  margin-right: 15%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  background-color: #e4f2e7;
+}
+
+.right-admin-hazard-location-location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(199, 207, 207); */
+  height: 15%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 4%;
+  background-color: #e4f2e7;
+  border-radius: 3vh;
+}
+
+.right-admin-hazard-location-location-heading {
+  color: #387373;
+  font-weight: bold;
+  font-size: 8vh;
+
+}
+
+.right-admin-hazard-location-possible-hazards-main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(199, 207, 207); */
+  height: 60%;
+  width: 90%;
+  margin-bottom: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #387373;
+}
+
+.right-admin-hazard-location-possible-hazards-title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(155, 136, 138); */
+  height: 10%;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5vh;
+}
+
+.right-admin-hazard-location-possible-hazards-title {
+  font-size: 5vh;
+  color: #e4f2e7;
+  text-align: center;
+  font-weight: bold
+}
+
+.right-admin-hazard-location-possible-hazards-content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(155, 136, 138); */
+  height: 15%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  background-color: #0a3030;
+  border-radius: 3vh;
+}
+
+.right-admin-hazard-location-possible-hazards-content {
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bold;
+}
+

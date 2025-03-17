@@ -1,0 +1,125 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ..........left side design start.......... */
+
+.select-route-main-left {
+  background-color: white;
+  height: 100%;
+}
+
+.select-route-header-box {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #387373;
+  height: 20%;
+  width: 100%;
+  border-bottom-right-radius: 200px;
+  margin-left: -5%;
+  margin-bottom: 2%;
+}
+
+.select-route-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-left: 5%;
+  color: #e4f2e7;
+  justify-content: center;
+}
+
+/* .select-route-dropdown-box {
+  background-color: rgb(207, 215, 221);
+  height: 50%;
+  width: 80%;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+#select-route-input-group-dropdown-2 {
+  background-color: #387373;
+  color: #e4f2e7;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.select-route-scrollable-dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#select-route-input {
+  border: 0.5vh solid #387373;
+  font-size: 1.2rem;
+  color: #387373;
+  font-weight: bolder;
+}
+.select-route-input-dropdown-box {
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.select-route-start-button-box {
+  background-color: rgb(235, 237, 238);
+  height: 10%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+}
+.select-route-start-button {
+  width: 100%;
+  height: 100%;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #e4f2e7;
+  background-color: #387373;
+}
+.select-route-start-button:hover {
+  background-color: #043333;
+}
+.select-route-back-button-box {
+  background-color: rgb(207, 215, 221);
+  height: 10%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.select-route-back-button {
+  width: 100%;
+  height: 100%;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #e4f2e7;
+  background-color: #387373;
+}
+.select-route-back-button:hover {
+  background-color: #043333;
+}
+
+/* ..........right side design start.......... */
+.main-right {
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.right-map-box {
+  background-color: rgb(207, 215, 221);
+  height: 96%;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.right-map-box .route-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

@@ -1,0 +1,202 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* ..........left side design start.......... */
+
+.hazard-location-main-left {
+  background-color: #fff;
+  height: 100%;
+}
+
+.hazard-location-header-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #387373;
+  height: 20%;
+  width: 80%;
+  border-bottom-right-radius: 200px;
+  margin-left: -5%;
+  margin-bottom: 12%;
+}
+
+.hazard-location-header-title {
+  font-size: 8vh;
+  text-align: left;
+  font-weight: bolder;
+  margin-left: 4%;
+  color: #e4f2e7;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.hazard-location-dropdown-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(165, 168, 168); */
+  height: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.hazard-location-dropdown-textbox {
+  height: 70%;
+  width: 100%;
+  font-size: 5vh;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  border-radius: 4vh;
+  border: 0.5vh solid #387373;
+  font-weight: bold;
+}
+
+.hazard-location-dropdown-textbox::placeholder {
+  color: #387373;
+  /* Adds  color to the placeholder text */
+  opacity: 50%;
+}
+
+.hazard-location-button-box1 {
+  /* background-color: rgb(165, 168, 168); */
+  height: 10%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+.hazard-location-search-button {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 100%;
+  height: 100%;
+  font-weight: bolder;
+  font-size: 5vh;
+  border-radius: 6vh;
+}
+
+.hazard-location-search-button:hover {
+  background-color: #0a3030;
+}
+
+.hazard-location-button-box2 {
+  /* background-color: rgb(165, 168, 168); */
+  height: 10%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+}
+
+.hazard-location-back-button {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #387373;
+  color: #e4f2e7;
+  width: 100%;
+  height: 100%;
+  font-weight: bolder;
+  font-size: 5vh;
+  border-radius: 6vh;
+}
+
+.hazard-location-back-button:hover {
+  background-color: #0a3030;
+}
+
+/* ..........right side design start.......... */
+.hazard-location-main-right {
+  background-color: #387373;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hazard-location-location-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4f2e7;
+  height: 15%;
+  width: 100%;
+  margin-bottom: 6%;
+  margin-top: 2%;
+  border-radius: 4vh;
+}
+
+.hazard-location-heading {
+  color: #387373;
+  font-size: 8vh;
+  font-weight: bold;
+}
+
+.hazard-location-possible-main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #387373;
+  height: 70%;
+  width: 90%;
+  margin-bottom: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.hazard-location-possible-header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #e4f2e7; */
+  height: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.hazard-location-possible-header-heading {
+  color: #e4f2e7;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.hazard-location-possible-content-box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a0811;
+  height: 15%;
+  width: 70%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 4vh;
+}
+
+.hazard-location-possible-content-heading {
+  color: #e4f2e7;
+  font-weight: bold;
+  font-size: 5vh;
+}
+
+.hazard-location-possible-content-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 247, 247);
+  height: 15%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%;
+}
