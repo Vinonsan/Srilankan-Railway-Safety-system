@@ -48,8 +48,8 @@ A smart system designed to protect wildlife, particularly elephants and bulls, f
    ```
 4. Configure environment variables in a `.env` file:
    ```env
-   DATABASE_URL=your_database_url
-   WEATHER_API_KEY=your_weather_api_key
+   
+   WEATHER_API_KEY=422e1d8e08dad104d47a623408c8f5a1
    ```
 5. Start the backend server:
    ```bash
@@ -57,7 +57,7 @@ A smart system designed to protect wildlife, particularly elephants and bulls, f
    ```
 6. Start the frontend application:
    ```bash
-   npm run client
+   npm run dev
    ```
 
 ## 🔥 Future Enhancements
